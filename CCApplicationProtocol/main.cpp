@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
+#include"AppDelegate.hpp"
+#include"CCApplication.hpp"
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+ // AppDelegate app;
+    return CCApplication::sharedApplication()->run();
+   
     return 0;
 }
